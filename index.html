@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JAFN · Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-pill">
+      <a href="#about" class="nav-link active">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#work" class="nav-link">What I Do</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
+  <section id="about" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span class="accent">JAFN</span></h1>
+      <p class="tagline">● Developer · Search · Compilers · Graphics</p>
+      <p class="bio">I build search engines, compilers, and interactive graphics — with the interesting parts exposed. Clean systems, inspectable pipelines, and a little bit of play in every experiment.</p>
+    </div>
+    <div class="avatar-card">
+      <div class="avatar-frame">
+        <img src="https://avatars.githubusercontent.com/u/240325301?v=4" alt="JAFN" class="avatar-img" />
+        <div class="avatar-meta">
+          <strong>JAFN</strong>
+          <span>Developer</span>
+        </div>
+      </div>
+      <p class="avatar-hint">// look_closer()</p>
+    </div>
+  </section>
+
+  <section class="status-bar">
+    <div class="status-inner">
+      <span class="status-badge">CURRENTLY</span>
+      <span>Building search engines · Compilers · Interactive graphics</span>
+      <span class="status-available">Status → <strong>● AVAILABLE</strong></span>
+    </div>
+  </section>
+
+  <section class="skills-card">
+    <div class="skills-header">
+      <span class="icon">⚡</span>
+      <div>
+        <h3>Focus · Systems & Graphics</h3>
+        <p>TypeScript, WebAssembly, WebGL2/GLSL, Web Workers, compiler pipelines, search indexes, and clean browser runtimes.</p>
+      </div>
+    </div>
+    <div class="skills-chips">
+      <span class="chip">TypeScript</span>
+      <span class="chip">WebAssembly</span>
+      <span class="chip">WebGL2</span>
+      <span class="chip">GLSL</span>
+      <span class="chip">Web Workers</span>
+      <span class="chip">Compilers</span>
+      <span class="chip">Search</span>
+      <span class="chip">Vite</span>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <a class="project-card" href="https://github.com/goonerlogy-cyber/goonerlogy-cyber" target="_blank" rel="noopener">
+      <div class="project-num">01</div>
+      <div class="project-body">
+        <h3>Sift</h3>
+        <p>Search that shows its work. Browser search engine over 10k film-style records with radix trie, inverted index, bitset facets and inspectable ranking.</p>
+        <span class="project-url">TypeScript · Web Workers · Private source</span>
+      </div>
+      <div class="project-arrow">→</div>
+    </a>
+
+    <a class="project-card" href="https://github.com/goonerlogy-cyber/goonerlogy-cyber" target="_blank" rel="noopener">
+      <div class="project-num">02</div>
+      <div class="project-body">
+        <h3>Kiln</h3>
+        <p>A small language, down to the bytes. Compiles a statically typed language to real WebAssembly binaries in the browser with full stage inspection.</p>
+        <span class="project-url">Compiler design · WebAssembly · Private source</span>
+      </div>
+      <div class="project-arrow">→</div>
+    </a>
+
+    <a class="project-card" href="https://github.com/goonerlogy-cyber/goonerlogy-cyber" target="_blank" rel="noopener">
+      <div class="project-num">03</div>
+      <div class="project-body">
+        <h3>Eddy</h3>
+        <p>Paint the flow. Interactive fluid playground with WebGL2, mouse/touch painting, tunable presets, shareable looks and optional audio-reactive input.</p>
+        <span class="project-url">WebGL2 · GLSL · Private source</span>
+      </div>
+      <div class="project-arrow">→</div>
+    </a>
+
+    <a class="project-card" href="https://github.com/goonerlogy-cyber/q" target="_blank" rel="noopener">
+      <div class="project-num">04</div>
+      <div class="project-body">
+        <h3>q</h3>
+        <p>Portfolio of local reproductions of foundational AI/ML papers — GANs, Transformers, ResNet, VAEs and more.</p>
+        <span class="project-url">github.com/goonerlogy-cyber/q</span>
+      </div>
+      <div class="project-arrow">→</div>
+    </a>
+
+    <a class="project-card" href="https://github.com/goonerlogy-cyber/area" target="_blank" rel="noopener">
+      <div class="project-num">05</div>
+      <div class="project-body">
+        <h3>area</h3>
+        <p>Interactive browser calculator for rectangle, triangle, circle and trapezoid areas.</p>
+        <span class="project-url">github.com/goonerlogy-cyber/area</span>
+      </div>
+      <div class="project-arrow">→</div>
+    </a>
+  </section>
+
+  <section id="work" class="what-i-do">
+    <h2 class="section-title">What I Do</h2>
+    <div class="work-grid">
+      <div class="work-card">
+        <div class="work-icon">🔍</div>
+        <h3>SEARCH</h3>
+        <p>Indexes, ranking, typo recovery and inspectable engines that show exactly why a result ranked where it did.</p>
+      </div>
+      <div class="work-card">
+        <div class="work-icon">⚙️</div>
+        <h3>COMPILE</h3>
+        <p>Small languages to real WebAssembly. Lexer → parser → type checker → binary emitter, all visible in the browser.</p>
+      </div>
+      <div class="work-card">
+        <div class="work-icon">🎨</div>
+        <h3>GRAPHICS</h3>
+        <p>WebGL2 fluid sims, interactive canvases and systems you can paint, tune and share.</p>
+      </div>
+      <div class="work-card">
+        <div class="work-icon">🧪</div>
+        <h3>EXPERIMENT</h3>
+        <p>Reproduce papers, build playgrounds, and keep the interesting parts of the system exposed.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+    <p class="contact-lead">Have something in mind?<br/>Let's make it real.</p>
+    <div class="contact-card">
+      <img src="https://avatars.githubusercontent.com/u/240325301?v=4" alt="JAFN" class="contact-avatar" />
+      <a class="contact-btn" href="https://github.com/goonerlogy-cyber" target="_blank" rel="noopener">GitHub Profile</a>
+      <p class="contact-sub">github.com/goonerlogy-cyber</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <strong>JAFN</strong>
+    <span>Developer · Search · Compilers · Graphics</span>
+    <a href="https://github.com/goonerlogy-cyber" target="_blank" rel="noopener">GitHub ↗</a>
+    <p class="copy">© JAFN</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
